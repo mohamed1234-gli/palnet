@@ -1,0 +1,336 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    direction: rtl; 
+}
+
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #2575fc;
+}
+
+header .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+header .login-btn {
+    background-color: #ff3b30;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+header .login-btn:hover {
+    background-color: #10bfb0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Search Section */
+.search-section {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons a {
+    color: #2575fc;
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #6a11cb;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+
+
+
+main {
+    padding: 20px;
+    background: linear-gradient(135deg, #bf9fe2, #8eb3f4);
+}
+
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover img {
+    opacity: 0.9;
+}
+
+
+footer {
+    background-color: #2575fc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-content p {
+    margin: 0;
+}
+.aa:hover{
+    color: turquoise;
+}
+nav a:hover {
+    background: linear-gradient(45deg, #194b4f, #33ffc3);
+    color: black; 
+    border-radius: 8px;
+    font-size: 20px;
+}
+.return-button:hover {
+    background: linear-gradient(45deg, #194b4f, #33ffc3);
+    color: black; 
+    border-radius: 8px;
+    font-size: 20px;
+}
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.login-content {
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #2575fc;
+}
+
+
+.btn-submit {
+    background-color: #2575fc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #6a11cb;
+}
+
+
+.social-login a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-login a:hover {
+    color: #2575fc;
+}
+
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 80%;
+    }
+}
+.body1 {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../image/loo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.h{
+    text-align: center;
+}
+.img1{text-align: center;}
+
+.image-gallery-3d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.container {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: rotation 20s linear infinite;
+}
+.container span {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    transform-origin: center;
+    transform-style: preserve-3d;
+}
+
+.container span img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.container span img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.container span:nth-child(1) { transform: rotateY(0deg) translateZ(300px); }
+.container span:nth-child(2) { transform: rotateY(72deg) translateZ(300px); }
+.container span:nth-child(3) { transform: rotateY(144deg) translateZ(300px); }
+.container span:nth-child(4) { transform: rotateY(216deg) translateZ(300px); }
+.container span:nth-child(5) { transform: rotateY(288deg) translateZ(300px); }
+
+@keyframes rotation {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
+footer {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
